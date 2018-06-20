@@ -55,6 +55,7 @@ public class DLRRequestListener extends HttpServlet {
 					.getValue("dlr_send_sleep")));
 			t.interrupt();*/
 			
+			//TODO : Testing
 			sessionEventHandler = SessionManager.getInstance().getSession("ashish");
 			if (sessionEventHandler!=null) {
 				logger.info("User Session found successfully: "+sessionEventHandler.getSessionId());
